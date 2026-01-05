@@ -17,7 +17,6 @@ function closeNav() {   //sets a function called closeNav() execute when it is c
   document.getElementById("main").style.marginLeft = "0";
 }
 
-
 function bigfont(){
   let big = document.getElementById("big").style.fontSize = "40px";
 }
