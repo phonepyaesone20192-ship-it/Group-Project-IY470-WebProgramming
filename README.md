@@ -9,6 +9,8 @@ This keeps the project clean and avoids conflicts.
 
 (Do NOT clone the main repo(my repo))
 
+Clone the repo you forked which is your repo.
+
 ---
 
 ### STEP 2: Connect your fork to the main repo (DO THIS ONCE ONLY)
