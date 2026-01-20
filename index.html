@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<title>GYM
+</title>
+</head>
+<body>
+    <div class="container" id="main">
+        <a href="javascript:void(0)" style="color:white" onclick="toggleNav(); event.stopPropagation();">&#9776;</a>
+        <div class="account-wrapper">
+            <a href="Account.html"><img src="account.png" class="account"></a>
+            <span class="Position-Account">Account</span>
+        </div>
+    </div>
+    <div id="mySidenav" class="sidenav" onclick="event.stopPropagation()">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" onmouseover="bigfont4(this)" onmouseleave="normalfont(this)">&times;</a>
+        <a href="#" onmouseover="bigfont()" id="big" onmouseleave="normalfont(this)">About</a>
+        <a href="#" onmouseover="bigfont2(this)" onmouseleave="normalfont(this)">Memberships</a>
+        <a href="Account.html" onmouseover="bigfont3(this)"  onmouseleave="normalfont(this)">Account</a>
+    </div>
+    <script
+        src="index.js">
+    </script>
+
+    <div class="gym-grid">
+    <div class="gym-card">
+    <img src="" 
+         alt="uGym" width="140" height="100">
+    <p>
+      <b>uGym </b> <p class="joining-fee">Joining Fee: £10</p>
+      <table>
+                <tr>
+                    <th>Membership Type</th>
+                    <th>Price (£)</th>
+                </tr>
+                <tr><td>Gym: Super-off peak</td><td>16</td></tr>
+                <tr><td>Gym: Off-peak</td><td>21</td></tr>
+                <tr><td>Gym: Anytime</td><td>30</td></tr>
+                <tr><td>Swimming (without gym)</td><td>25</td></tr>
+                <tr><td>Swimming (with gym)</td><td>+15</td></tr>
+                <tr><td>Classes (without gym)</td><td>20</td></tr>
+                <tr><td>Classes (with gym)</td><td>+10</td></tr>
+                <tr><td>Massage (without gym)</td><td>30</td></tr>
+                <tr><td>Massage (with gym)</td><td>+25</td></tr>
+                <tr><td>Physiotherapy (without gym)</td><td>25</td></tr>
+                <tr><td>Physiotherapy (with gym)</td><td>+20</td></tr>
+            </table>
+
+    </p>
+    <a href="" target="_blank" id="links">Visit uGym</a>
+    </div>
+
+    <div class="gym-card">
+    <img src="" 
+         alt="PowerZone img" width="140" height="100">
+    <p>
+      <b>PowerZone </b><p class="joining-fee">Joining Fee: £30</p>
+      <table>
+                <tr>
+                    <th>Membership Type</th>
+                    <th>Price (£)</th>
+                </tr>
+                <tr><td>Gym: Super-off peak</td><td>13</td></tr>
+                <tr><td>Gym: Off-peak</td><td>19</td></tr>
+                <tr><td>Gym: Anytime</td><td>24</td></tr>
+                <tr><td>Swimming (without gym)</td><td>20</td></tr>
+                <tr><td>Swimming (with gym)</td><td>+12.5</td></tr>
+                <tr><td>Classes (without gym)</td><td>20</td></tr>
+                <tr><td>Classes (with gym)</td><td>0</td></tr>
+                <tr><td>Massage (without gym)</td><td>30</td></tr>
+                <tr><td>Massage (with gym)</td><td>+25</td></tr>
+                <tr><td>Physiotherapy (without gym)</td><td>30</td></tr>
+                <tr><td>Physiotherapy (with gym)</td><td>+25</td></tr>
+            </table>
+    </p>
+    <a href="" target="_blank" id="links">Visit PowerZone</a>
+    </div>
+
+</div>
+
+</body>
+</html>

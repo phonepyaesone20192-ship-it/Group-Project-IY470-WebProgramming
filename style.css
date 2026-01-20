@@ -1,0 +1,128 @@
+.container{
+    display: flex;
+    background-color:#111;
+    width:auto;
+    height:58px;
+    align-items: center;
+    gap:1000px;
+    font-size:30px;
+    color:white;
+    padding:10px;
+    transition:0.33s;
+}
+
+.container a{
+    text-decoration: none;
+    cursor:pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.None{ 
+    display:none;
+}
+
+body{
+    margin:0;
+}
+.sidenav a {
+  padding: 8px 8px 8px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fbfafa;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 50px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+a:hover{
+    text-shadow:2px 1px  rgb(15, 5, 5);
+}
+.account{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(251, 248, 248);
+    border-radius: 50%;
+    margin: 0;
+}
+
+.account-wrapper {
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Position-Account{
+    font-size: 20px;
+    color: rgb(240, 235, 235);
+    
+}
+
+
+
+.gym-grid {
+  display: grid; 
+  grid-template-areas: 'page1 page2'; /* to make the grid side to sides */
+  gap: 25px; /* space between the boxes */
+  margin: 50px 50px 40px 170px;
+}
+
+/* Each university block */
+.gym-card {
+  background-color: white;
+  width: 450px;
+  border: 1px solid #ccc; /* border size and color */
+  border-radius: 10px; /* roundness of the border */
+  padding: 20px;
+  background-color: #f9f9f9; /* color of the grid box */
+  text-align: center; 
+}
+
+.gym-card img {
+  margin: auto; /* to center the image */
+  border-radius: 8px; /* roundness of the imaage */
+}
+
+.comparison-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gym-card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.joining-fee {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
