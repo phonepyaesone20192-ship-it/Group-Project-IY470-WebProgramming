@@ -14,7 +14,7 @@ This keeps the project clean and avoids conflicts.
 ### STEP 2: Connect your fork to the main repo (DO THIS ONCE ONLY)
 
 ```bash
-git remote add upstream https://github.com/OWNER-USERNAME/REPO-NAME.git
+git remote add upstream https://github.com/OWNER-USERNAME/REPO-NAME.git](https://github.com/FangZxuan/Group-Project-IY470-WebProgramming.git
 ```
 
 Check it worked:
@@ -41,11 +41,10 @@ git push origin main
 ❌ Never work on `main`
 
 ```bash
-git checkout -b feature-name
+git checkout -b name
 ```
 
 Example:
-
 ```bash
 git checkout -b homepage
 ```
@@ -81,6 +80,11 @@ git commit -m "Add homepage layout"
 git push origin feature-name
 ```
 
+Example:
+
+```bash
+git push origin homepage(the branch name you are working on)
+```
 ---
 
 ### STEP 8: Create a Pull Request (GitHub website)
@@ -104,9 +108,4 @@ Then wait for approval.
 * ✔ Clear commit messages
 
 ---
-
-### Short reminder
-
-**Sync → New branch → Work → Commit → Push → Pull Request**
-
-Thanks 👍
+LETS GO GET 100% GUYS!!!
