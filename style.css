@@ -143,16 +143,16 @@ form{                 /*login form grid*/
     
     
 }
-input[type="text"], select {        /*every input that takes text will be selected*/
+input[type="text"], input[type="password"], select {        /*every input that takes text will be selected*/
     width:50%;
-    font-size:20px;
+    font-size:15px;
     
 }
 button{                      /*login button*/
     width:100px;
     border:none;
     border-radius:10px;
-    background-image:linear-gradient(to right,blue,aqua);
+    background-image:linear-gradient(to right,rgb(96, 96, 248),aqua);
     font-size:20px;
     margin-left:5px;
 }
