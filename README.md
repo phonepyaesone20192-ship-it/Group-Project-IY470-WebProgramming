@@ -16,7 +16,7 @@ Clone the repo you forked which is your repo.
 ### STEP 2: Connect your fork to the main repo (DO THIS ONCE ONLY)
 
 ```bash
-git remote add upstream https://github.com/OWNER-USERNAME/REPO-NAME.git](https://github.com/FangZxuan/Group-Project-IY470-WebProgramming.git
+git remote add upstream https://github.com/FangZxuan/Group-Project-IY470-WebProgramming.git
 ```
 
 Check it worked:
