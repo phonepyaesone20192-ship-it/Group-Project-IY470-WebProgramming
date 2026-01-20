@@ -14,6 +14,13 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
 }
+function togglelogin() {
+    document.getElementById("login").classList.toggle("open");
+}
+
+document.addEventListener("DOMContentLoaded",()=>{
+    togglelogin();
+});
 
 function bigfont() { document.getElementById("big").style.fontSize = "40px"; }
 function normalfont(x) { x.style.fontSize = "25px"; }
@@ -33,3 +40,4 @@ document.addEventListener("click", function(event) {
         }
     }
 });
+
