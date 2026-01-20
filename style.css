@@ -126,3 +126,60 @@ th, td {
 th {
     background-color: #f0f0f0;
 }
+.main{
+     background-image:linear-gradient(to right,purple , aqua);
+    
+}
+form{                 /*login form grid*/
+    display:grid;
+    padding:40px;
+    border:3px solid black;
+    margin-left:50px;
+    width: 45%;
+    margin:100px auto;
+    font-size:20px;
+    background-image:linear-gradient(to right, aqua,rgb(50, 50, 161));
+    border-radius:30px;
+    
+    
+}
+input[type="text"], select {        /*every input that takes text will be selected*/
+    width:50%;
+    font-size:20px;
+    
+}
+button{                      /*login button*/
+    width:100px;
+    border:none;
+    border-radius:10px;
+    background-image:linear-gradient(to right,blue,aqua);
+    font-size:20px;
+    margin-left:5px;
+}
+
+
+.create_account{
+    padding:15px;
+    margin-right:100px;
+}
+
+#login {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 3s;
+    padding: 0 10px;
+}
+
+#login.open {
+    max-height:400px; /* must be bigger than content height */
+    padding: 100px;
+}
+input{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    box-shadow:10px 10px;
+    outline:none;
+    
+}
