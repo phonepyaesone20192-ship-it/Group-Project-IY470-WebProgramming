@@ -331,10 +331,6 @@ input[type="submit"],select{
 .signn{
     font-size:30px;
     margin-bottom:30px;
-    justify-self:center;
+    text-align: center;
     margin-top:20px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 000dcd7 (signup_page)
