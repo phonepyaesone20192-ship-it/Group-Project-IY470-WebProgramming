@@ -264,7 +264,7 @@ button{
 /********SIGN UP PAGE CSS********/
 .background-signup{
     background-image: url("Photos/gym.jpg");
-     background-size: 100% 100%;
+     background-size: 106% 100%;
      background-repeat:no-repeat;
     width: 100vw;
      overflow-y: hidden; /* Hide vertical scrollbar */
