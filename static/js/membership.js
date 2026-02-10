@@ -39,7 +39,7 @@ if (localStorage.getItem('ageVerified')) {
 }
 
 //Alternative: Uncomment below to ALWAYS show age gate for testing
-// localStorage.removeItem('ageVerified');
+//localStorage.removeItem('ageVerified');
 
 // Main calculation function
 function calculate() {
